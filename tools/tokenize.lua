@@ -114,3 +114,4 @@ while true do
 end
 
 io.stderr:write(string.format('Tokenization completed in %0.3f seconds - %d sentences\n', timer:time().real, idx))
+#
