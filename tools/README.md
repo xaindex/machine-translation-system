@@ -1,4 +1,4 @@
-This directory contains additional tools and extensions to OpenNMT.
+This directory contains additional tools and extensions.
 
 * `apply_embeddings.lua` applies pre-trained word embeddings to a text file and generates a vector file.
 * `average_models.lua` averages all parameters of multiple models.
@@ -12,5 +12,3 @@ This directory contains additional tools and extensions to OpenNMT.
 * `score.lua` scores predictions against references with a specific metric.
 * `tokenize.lua` runs OpenNMT's generic tokenization on a text file.
 * `translation_server.lua` runs a simple ZMQ-based translation server.
-
-For more details about these scripts, visit the [online documentation](http://opennmt.net/OpenNMT/) or explore available options with the `-h` flag.
