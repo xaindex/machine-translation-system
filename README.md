@@ -1,10 +1,14 @@
-**This project is considered obsolete as the Torch framework is no longer maintained. If you are starting a new project, please use an alternative in the OpenNMT family: [OpenNMT-tf](https://github.com/OpenNMT/OpenNMT-tf) (TensorFlow) or [OpenNMT-py](https://github.com/OpenNMT/OpenNMT-py) (PyTorch) depending on your requirements.**
+# machine-translation-system
+An open-source machine translation system using machine learning techniques.
 
-[![Build Status](https://api.travis-ci.org/OpenNMT/OpenNMT.svg?branch=master)](https://travis-ci.org/OpenNMT/OpenNMT) [![codecov](https://codecov.io/gh/OpenNMT/OpenNMT/branch/master/graph/badge.svg)](https://codecov.io/gh/OpenNMT/OpenNMT)
+## Disclaimer 
+**This software is published for academic and non-commercial use only.
 
-# OpenNMT: Open-Source Neural Machine Translation
+****This project is considered obsolete as the Torch framework is no longer maintained. If you are starting a new project, please use an alternative in the OpenNMT family: Translation System (TensorFlow) or Translation System (PyTorch) depending on your requirements.**
 
-[OpenNMT](http://opennmt.net/) is a full-featured, open-source (MIT) neural machine translation system utilizing the [Torch](http://torch.ch) mathematical toolkit.
+# Translation System: Open-Source Neural Machine Translation
+
+Translation System is a full-featured, open-source (MIT) neural machine translation system utilizing the [Torch](http://torch.ch) mathematical toolkit.
 
 <center style="padding: 40px"><img width="70%" src="http://opennmt.github.io/simple-attn.png" /></center>
 
@@ -29,8 +33,6 @@ luarocks install tds
 luarocks install bit32 # if using LuaJIT
 ```
 
-For other installation methods including Docker, visit the [documentation](http://opennmt.net/OpenNMT/installation/).
-
 ## Quickstart
 
 OpenNMT consists of three commands:
@@ -53,21 +55,6 @@ th train.lua -data data/demo-train.t7 -save_model model
 th translate.lua -model model_final.t7 -src data/src-test.txt -output pred.txt
 ```
 
-For more details, visit the [documentation](http://opennmt.net/OpenNMT/).
-
-## Citation
-
-A [technical report](https://arxiv.org/abs/1701.02810) on OpenNMT is available. If you use the system for academic work, please cite:
-
-```
-@ARTICLE{2017opennmt,
-  author = {{Klein}, G. and {Kim}, Y. and {Deng}, Y. and {Senellart}, J. and {Rush}, A.~M.},
-  title = "{OpenNMT: Open-Source Toolkit for Neural Machine Translation}",
-  journal = {ArXiv e-prints},
-  eprint = {1701.02810}
-}
-```
-
 ## Acknowledgments
 
 Our implementation utilizes code from the following:
@@ -76,8 +63,5 @@ Our implementation utilizes code from the following:
 * [Wojciech Zaremba's lstm repo](https://github.com/wojzaremba/lstm)
 * [Element rnn library](https://github.com/Element-Research/rnn)
 
-## Additional resources
-
-* [Documentation](http://opennmt.net/OpenNMT)
-* [Forum](http://forum.opennmt.net)
-* [Gitter channel](https://gitter.im/OpenNMT/openmt)
+## Contact
+Feel free to contact us if there is any question (tech@xaindex.ai).
